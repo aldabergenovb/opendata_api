@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("opendata_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d49bc6f968b8f344e03ff5f2e8b9687c5914272b")]
 [assembly: System.Reflection.AssemblyProductAttribute("opendata_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("opendata_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

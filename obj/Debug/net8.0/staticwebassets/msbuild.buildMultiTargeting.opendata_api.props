@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/opendata_api.props" />
+</Project>

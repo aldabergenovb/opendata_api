@@ -37,7 +37,7 @@ public class OpenDataController(IDataEgovHttpService service, IConfiguration con
     public async Task<IActionResult> GetNewsWithRss(string lang)
     {
         var endpoint = $"api/v1/public/rss/astana/news/{lang}";
-        var result = await newsService.SendHttpRequest<NewsModel.RssFeed>(endpoint, HttpMethod.Get, null, null);
+        var result = await newsService.SendHttpRequest<NewsModel.RssFeed>(endpoint, HttpMethod.Get);
         return Ok(result);
     }
 }
